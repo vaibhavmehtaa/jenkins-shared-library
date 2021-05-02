@@ -1,4 +1,4 @@
-def notify(String buildResult) {
+def call(String buildResult) {
     
   if ( buildResult == "SUCCESS" ) {
     slackSend color: "#3ED421", message: "Job: ` ${env.JOB_NAME} ` with buildnumber ` ${env.BUILD_NUMBER} ` was successful @team_qa"
