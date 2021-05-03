@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 def call(String buildResult) {
     
   if ( buildResult == "SUCCESS" ) {
